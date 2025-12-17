@@ -16,7 +16,7 @@ function App() {
         setShowConfetti(true);
         setShowKitten(true);
         setPleaseCount(prevCount => prevCount + 1);
-        const newText = 'Please '.repeat(pleaseCount) + 'Stay Sane';
+        const newText = 'Please '.repeat(pleaseCount) + 'Send Nudes';
         setHeaderText(newText);
         setButtonClicked(true);
     };
