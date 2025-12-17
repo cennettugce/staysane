@@ -5,7 +5,7 @@ import './App.css';
 function App() {
     const [showConfetti, setShowConfetti] = useState(false);
     const [backgroundColor, setBackgroundColor] = useState('#fff');
-    const [headerText, setHeaderText] = useState(['Welcome to Stay Sane Webpage']);
+    const [headerText, setHeaderText] = useState(['Click the Button']);
     const [showKitten, setShowKitten] = useState(false);
     const [pleaseCount, setPleaseCount] = useState(1);
     const [buttonClicked, setButtonClicked] = useState(false);
